@@ -30,9 +30,9 @@
 | ID | Low Level Requirements for HL1|       |ID | Low Level Requirements for HL2|
 | -------- | -------------- | ---- |-------- | -------------- |
 | LLR1.1 |  According to the press of __Button__ all LED's shall be on | | LLR2.1 | According to the press of __Button__  LED's shall be off  |
-| LLR1.2 | According to the press of __Button__ LED's shall be on in Clockwise Manner | | LLR2.2 | LED's shall glow in a manner of Green--->Orange--->Red--->Blue |
+| LLR1.2 | According to the press of __Button__ LED's shall be on in Clockwise Manner | | LLR2.2 | LED's shall glow in a manner of __Green--->Orange--->Red--->Blue__ |
      
 | ID | Low Level Requirements for HL3|  |ID | Low Level Requirements for HL4|
 | -------- | -------------- | ---- | -------- | -------------- |
-| LLR3.1 |  According to the press of __Button__ LED's shall be on in AntiClockwise Manner | | LLR4.1 | LED's shall glow in a manner of Green--->Blue--->Red--->Orange |
-| LLR3.2 | System shall be encrypted with masked data || LLR4.2 | System shall provide Random Data each time |
+| LLR3.1 |  According to the press of __Button__ LED's shall be on in AntiClockwise Manner | | LLR4.1 | LED's shall glow in a manner of __Green--->Blue--->Red--->Orange__ |
+| LLR3.2 | System shall be __Encrypted__ with masked data || LLR4.2 | System shall provide __Random Data__ each time to ensure more security |
