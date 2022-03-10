@@ -17,18 +17,9 @@
 | Test ID (for LED)| Description | Input | Expected output | Actual Output | passed/not |
 | --- | --- | --- | --- | --- | --- |
 | 01 | Check for ALLLED_ON() | 1 User Button Press | All LEDs ON |All LEDs ON | ✅ |
-
-| Test ID (for LED)| Description | Input | Expected output | Actual Output | passed/not |
-| --- | --- | --- | --- | --- | --- |
-| 01 | Check for ALLLED_OFF() | 2 User Button Presses | All LEDs OFF | All LEDs OFF | ✅ |
-
-| Test ID (for LED)| Description | Input | Expected output | Actual Output | passed/not |
-| --- | --- | --- | --- | --- | --- |
-| 01 | Check for LEDCW_ON() | 3 User Button Presses | LED ON Clockwise Rotation | LED ON Clockwise Rotation | ✅ | 
-
-| Test ID (for LED)| Description | Input | Expected output | Actual Output | passed/not |
-| --- | --- | --- | --- | --- | --- |
-| 01 | Check for LEDACW_ON() | 4 User Button Presses |LED ON Anticlockwise Rotation | LED ON Anticlockwise Rotation | ✅ |
+| 02 | Check for ALLLED_OFF() | 2 User Button Presses | All LEDs OFF | All LEDs OFF | ✅ |
+| 03 | Check for LEDCW_ON() | 3 User Button Presses | LED ON Clockwise Rotation | LED ON Clockwise Rotation | ✅ | 
+| 04 | Check for LEDACW_ON() | 4 User Button Presses |LED ON Anticlockwise Rotation | LED ON Anticlockwise Rotation | ✅ |
 
 | Test ID (for Button Count)| Description | Input | Expected output | Actual Output | passed/not |
 | --- | --- | --- | --- | --- | --- |
