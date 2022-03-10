@@ -3,14 +3,17 @@
 # 1 Architecture
 * ## 1.1 Behavioural Diagram
     * ### 1.1.1 High Level Flow chart Behavioural Diagram
-    ![Homeautomation drawio](https://user-images.githubusercontent.com/94365143/155739910-02eb973e-1fea-4e46-8f63-48e638b3feba.png)
+   ![RkeHighlvl](https://user-images.githubusercontent.com/94365143/157736144-b835f717-d1b4-4d8d-9796-259d5bbf4a8e.png)
+   
     * ### 1.1.2 Low Level Flow chart Behavioural Diagram
-    ![Homeautomationlow drawio (2)](https://user-images.githubusercontent.com/94365143/155739932-ad8d6c8a-44a6-4d26-9d3e-b6906c108c80.png)
+    ![RKELowlvl](https://user-images.githubusercontent.com/94365143/157736152-1014a84c-67b7-4a1f-af81-9e2b11f614ec.png)
+
 * ## 1.2 Structural Diagram
     * ### 1.2.1 High Level UML Use Case Structural Diagram
-    ![Homeautomationumlhigh drawio](https://user-images.githubusercontent.com/94365143/155739956-2e768765-460a-49b6-a80b-ecabe5c1a1cd.png)
+   ![UseCaseHighRKE](https://user-images.githubusercontent.com/94365143/157736174-c018f0e5-8426-4310-b11d-f594529b89ea.png)
+
     * ### 1.2.2 Low Level UML Use Case Structural Diagram
-    ![Homeautomationumllow drawio (2)](https://user-images.githubusercontent.com/94365143/155742932-9ed19b51-e759-4085-9508-23bef2a91e94.png)
+    ![RKEUmlUseLowlvl](https://user-images.githubusercontent.com/94365143/157736195-92cc97a1-3cfe-4302-98f1-7b03e8f3a8e5.png)
 
  ---
  
