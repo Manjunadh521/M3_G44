@@ -12,7 +12,7 @@
 * The main focus of this project is to control Car features with click of a button and identifying the features with LED signaling.Security shall be provided with code encription to the car.LED's will blink if operation is performed. By combining all these features a final product as Remote Keyless Control(R.K.E). 
 ---
  ## 1.4 5W's 1H
-![5w1h-questions-and-answer (2)](https://user-images.githubusercontent.com/94365143/154832159-976b2ffb-0ea9-4f5c-9d91-a3252c811f75.png)
+
 ## Swot Analysis
 ![image](https://user-images.githubusercontent.com/94365143/154832952-fa8c759f-44fd-47b2-9c2e-6c8b3ba21813.png)
 
