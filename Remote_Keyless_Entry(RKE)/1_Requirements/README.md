@@ -1,4 +1,4 @@
-# 1 About the H.A.S.K.I
+# 1 About Remote KeyLess Entry(R.K.E)
 ## 1.1 Description
 * This project is an Remote keyless entry(R.K.E). This system helps to Lock the car, Unlock the car, Alarm activation/deactivation and Light Focus if anyone approaches near. There is a led signaling which helps us to identify the features. For example if we press a button 1 time all the LED will be on which means we locked the car and similarly fonr 2, 3 and 4 clicks. There are several features like heavy encription by providing rolling code algorithm to prevent car thieves from intercepting and spoofing the telegrams. .   
 ---
