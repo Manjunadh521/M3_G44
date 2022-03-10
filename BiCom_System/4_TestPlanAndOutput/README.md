@@ -2,10 +2,10 @@
 
 | Test ID | Description | Input | Expected output | Actual Output | 
 | --- | --- | --- | --- | --- | 
-| 01 | Car Lock | 1 User Button Press | Car Window status | Gave Car Window status  | 
-| 02 | Car Unlock | 2 User Button Presses |  Car alarm status  | Gave Car alarm status  | 
-| 03 | Alarm activation/deactivation | 3 User Button Presses | Car Battery Status | Gave Car Battery Status | 
-| 04 | Approach Light | 4 User Button Presses | Car Door Status | Gave Car Door Status | 
+| 01 | Car Lock | 1 User Button Press | Car Window status | Displayed Car Window status  | 
+| 02 | Car Unlock | 2 User Button Presses |  Car alarm status  | Displayed Car alarm status  | 
+| 03 | Alarm activation/deactivation | 3 User Button Presses | Car Battery Status | Displayed Car Battery Status | 
+| 04 | Approach Light | 4 User Button Presses | Car Door Status | Displayed Car Door Status | 
 
 ### Here below are the some of the *unity test/ unity framework* test plans there are so many but I have only mentiones some of the test cases here.
 
