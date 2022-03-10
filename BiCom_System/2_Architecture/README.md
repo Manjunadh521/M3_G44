@@ -3,17 +3,17 @@
 # 1 Architecture
 * ## 1.1 Behavioural Diagram
     * ### 1.1.1 High Level Flow chart Behavioural Diagram
-   ![RkeHighlvl](https://user-images.githubusercontent.com/94365143/157736144-b835f717-d1b4-4d8d-9796-259d5bbf4a8e.png)
+   ![BiComHighlvl](https://user-images.githubusercontent.com/94365143/157745691-d8c989cc-59da-4ad4-91b0-3af29f80fdc4.png)
    
     * ### 1.1.2 Low Level Flow chart Behavioural Diagram
-    ![RKELowlvl](https://user-images.githubusercontent.com/94365143/157736152-1014a84c-67b7-4a1f-af81-9e2b11f614ec.png)
+   ![BiComLowlvl](https://user-images.githubusercontent.com/94365143/157745701-91228eb0-0376-4991-922e-eeb4f28e4d5f.png)
 
 * ## 1.2 Structural Diagram
     * ### 1.2.1 High Level UML Use Case Structural Diagram
-   ![UseCaseHighRKE](https://user-images.githubusercontent.com/94365143/157736174-c018f0e5-8426-4310-b11d-f594529b89ea.png)
+    ![BiComUmlusecaseHigh1](https://user-images.githubusercontent.com/94365143/157745711-39e87539-9967-4a1e-b43e-922ec4953496.png)
 
     * ### 1.2.2 Low Level UML Use Case Structural Diagram
-    ![RKEUmlUseLowlvl](https://user-images.githubusercontent.com/94365143/157736195-92cc97a1-3cfe-4302-98f1-7b03e8f3a8e5.png)
+    ![BiComUmluseLowlvl](https://user-images.githubusercontent.com/94365143/157745735-5c1ae4df-6dc7-49aa-9fb0-6bf34fa6d3ce.png)
 
  ---
  
