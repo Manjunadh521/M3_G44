@@ -1,7 +1,7 @@
 # 1.1 HIGH LEVEL TEST PLAN
 
 | Test ID | Description | Input | Expected output | Actual Output | 
-| --- | --- | --- | --- | --- | --- |
+| --- | --- | --- | --- | --- | 
 | 01 | Car Lock | 1 User Button Press | Car locked |  Car locked  | 
 | 02 | Car Unlock | 2 User Button Presses |  Car unlocked  |  Car unlocked  | 
 | 03 | Alarm activation/deactivation | 3 User Button Presses | Alarm activated/deactivated | Alarm activated/deactivated | 
