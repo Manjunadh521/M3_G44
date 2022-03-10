@@ -15,7 +15,7 @@
 * Hack proof security is provided with encription.
 ---
  ## 1.4 5W's 1H
-![5w1h-questions-and-answer (2)](https://user-images.githubusercontent.com/94365143/154832159-976b2ffb-0ea9-4f5c-9d91-a3252c811f75.png)
+![RKE-5W's1H](https://user-images.githubusercontent.com/94365143/157699491-a0a6718d-7c59-4e01-9f0a-ff9060010361.png)
 ## Swot Analysis
 ![image](https://user-images.githubusercontent.com/94365143/154832952-fa8c759f-44fd-47b2-9c2e-6c8b3ba21813.png)
 
