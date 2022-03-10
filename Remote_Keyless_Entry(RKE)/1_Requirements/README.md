@@ -1,15 +1,18 @@
 # 1 About the H.A.S.K.I
 ## 1.1 Description
-* This project is an Remote keyless entry(R.K.E). This system helps to Lock the car, Unlock the car, Alarm activation/deactivation and Light Focus if anyone approaches near. There is a led signaling which helps us to identify the features. For example if we press a button 1 time all the LED will be on which means we locked the car and similarly fonr 2, 3 and 4 clicks. There are several features like heavy encription which helps us to provide high security for our car.   
+* This project is an Remote keyless entry(R.K.E). This system helps to Lock the car, Unlock the car, Alarm activation/deactivation and Light Focus if anyone approaches near. There is a led signaling which helps us to identify the features. For example if we press a button 1 time all the LED will be on which means we locked the car and similarly fonr 2, 3 and 4 clicks. There are several features like heavy encription by providing rolling code algorithm to prevent car thieves from intercepting and spoofing the telegrams. .   
 ---
 ## 1.2 Identifying features
+* It shall Lock the car for one User Button Click
+* It shall Unlock the car Two User Button Clicks 
+* It shall activation/deactivation alarm for Three User Button Clicks 
+* It shall activate approach light for Four User Button Clicks 
+---
+## 1.3 State of art
 * Buttons shall be provided to ease the access of available features.
 * Lock and Unlock the car with a button press.
 * Alarm system and Approach light are also available with a button press.
 * Hack proof security is provided with encription.
----
-## 1.3 State of art
-* The main focus of this project is to control Car features with click of a button and identifying the features with LED signaling.Security shall be provided with code encription to the car.LED's will blink if operation is performed. By combining all these features a final product as Remote Keyless Control(R.K.E). 
 ---
  ## 1.4 5W's 1H
 ![5w1h-questions-and-answer (2)](https://user-images.githubusercontent.com/94365143/154832159-976b2ffb-0ea9-4f5c-9d91-a3252c811f75.png)
