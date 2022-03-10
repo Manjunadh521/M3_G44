@@ -19,7 +19,10 @@
 
 
 ## Swot Analysis
-![image](https://user-images.githubusercontent.com/94365143/154832952-fa8c759f-44fd-47b2-9c2e-6c8b3ba21813.png)
+
+![RKE_SwotAnalysis](https://user-images.githubusercontent.com/94365143/157739196-92958825-35e3-4469-b57e-ca3faf031340.png)
+
+
 
 # 2 Requirements
 ## 2.1 High Level Requirements
