@@ -16,12 +16,13 @@
 * Display status of the car is displayed with a button press.
 ---
  ## 1.4 5W's 1H
-![RKE-5W's1H](https://user-images.githubusercontent.com/94365143/157699914-97ed74b7-4b9a-465b-a89b-c767e3b21aaa.png)
 
+![Bicom-5W's1H](https://user-images.githubusercontent.com/94365143/157749507-6efb8be9-e128-4d79-9785-2aa22651b824.png)
+
+---
 
 ## Swot Analysis
-
-![RKE_SwotAnalysis](https://user-images.githubusercontent.com/94365143/157739196-92958825-35e3-4469-b57e-ca3faf031340.png)
+![Bicom_SwotAnalysis](https://user-images.githubusercontent.com/94365143/157749520-9d6f9838-8fb5-4b21-a1d9-2decabd159a1.png)
 
 ---
 
