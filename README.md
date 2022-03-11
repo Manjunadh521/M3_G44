@@ -14,6 +14,9 @@
 | Project ⇨ 8_Others | Other files except above things|
 
 ---
+
+| Folder Name | Contents |
+|---|---|
 | 2_Bicom_System | All the things Required |
 | Project ⇨ 1_Requirements | README.md (Description,5W's & 1H, S.W.O.T,Requirements)  |
 | Project ⇨ 2_Architecture | README.md (Behavioral Diagrams,Structural UML Diagram) |
