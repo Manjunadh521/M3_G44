@@ -15,11 +15,8 @@
 * Hack proof security is provided with encription.
 ---
  ## 1.4 5W's 1H
-<<<<<<< HEAD
-=======
 ![RKE-5W's1H](https://user-images.githubusercontent.com/94365143/157699914-97ed74b7-4b9a-465b-a89b-c767e3b21aaa.png)
 
->>>>>>> 272eda38ff2b736fb7fcd1f08d804b2eddf1ce60
 
 ## Swot Analysis
 

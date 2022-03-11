@@ -1,177 +1,106 @@
- # Home Automation System with Keypad Interface (H.A.S.K.I)
- ## Refer Report.docx or Report.pdf for the Report
-
-<!-- 
----
-# Table of content
-1. About the H.A.S.K.I
-    1. Description
-    1. Identifying features
-    1. State of art
-    1. 5W's & 1H and S.W.O.T analysis
-1. Requirements
-    1. High level requirements
-    1. Low level requirements
-1. Block Diagram and Blocks explination
-    1. Block Diagram
-    1. Sensors
-    1. Actuators
-    1. Micro controller and memory
-    1. Sub-system and others
- 1. Architecture
-    1. Behavioural Diagram
-        1. High Level Flow chart Behavioural Diagram
-        1. Low Level Flow chart Behavioural Diagram
-    1. Structural Diagram
-        1. High Level UML Use Case Structural Diagram
-        1. Low Level UML Use Case Structural Diagram
-1. Test plan and Output
-    1. High level test plan
-    1. Low level test plan
-1. Application
-
----
-# 1 About the H.A.S.K.I
+# 1 About Remote KeyLess Entry(R.K.E)
 ## 1.1 Description
-* This project is an Home Automation System with Keypad Interface (H.A.S.K.I). This system helps to control Light, Fans and Doors of our house. There is a keypad present which enables a feature on pressing each number. For example if we press 1 then it opens our maindoor and if we press 2 it closes our main door.There are several features such as fixing a password to our system and even temperature is displayed on our LCD.   
+* This project is an Remote keyless entry(R.K.E). This system helps to Lock the car, Unlock the car, Alarm activation/deactivation and Light Focus if anyone approaches near. There is a led signaling which helps us to identify the features. For example if we press a button 1 time all the LED will be on which means we locked the car and similarly fonr 2, 3 and 4 clicks. There are several features like heavy encription by providing rolling code algorithm to prevent car thieves from intercepting and spoofing the telegrams. .   
 ---
 ## 1.2 Identifying features
-* Keypad shall be provided to ease the access of available features.
-* Automatic door opening and closing shall be provided along with automatic stop switches to stop once opened completely.
-* LCD Display shall be provided to know the option we press.
-* Room Temperature shall be displayed on LCD.
-* Number of Fans and lights on or off shall be displayed on LCD.
-* Security lock is provided to unlock the system.
+* It shall Lock the car for one User Button Click
+* It shall Unlock the car Two User Button Clicks 
+* It shall activation/deactivation alarm for Three User Button Clicks 
+* It shall activate approach light for Four User Button Clicks 
 ---
 ## 1.3 State of art
-* The main focus of this project is to control Doors,Fans and Lights through a remote. A security code shall be fixed which ensures security to our house even when remote is misplaced. A LCD screen can be seen which displays the option we enter and also the present status of number of Lights and Fans on or off can be seen. By combining all these features a final product is made known as H.A.S.K.I. As the technology is increasing rapidly these kind of automations are very useful in our daily lives.
+* Buttons shall be provided to ease the access of available features.
+* Lock and Unlock the car with a button press.
+* Alarm system and Approach light are also available with a button press.
+* Hack proof security is provided with encription.
 ---
  ## 1.4 5W's 1H
-![5w1h-questions-and-answer (2)](https://user-images.githubusercontent.com/94365143/154832159-976b2ffb-0ea9-4f5c-9d91-a3252c811f75.png)
+![RKE-5W's1H](https://user-images.githubusercontent.com/94365143/157699914-97ed74b7-4b9a-465b-a89b-c767e3b21aaa.png)
+
+
 ## Swot Analysis
-![image](https://user-images.githubusercontent.com/94365143/154832952-fa8c759f-44fd-47b2-9c2e-6c8b3ba21813.png)
+
+![RKE_SwotAnalysis](https://user-images.githubusercontent.com/94365143/157739196-92958825-35e3-4469-b57e-ca3faf031340.png)
 
 ---
+
 # 2 Requirements
 ## 2.1 High Level Requirements
 | ID | High Level Requirements |
 | -------- | -------------- |
-| HLR1 | System shall control Fan,Light,Doors by pressing a number on Keypad |
-| HLR2 | There shall be a LCD to display the numbers we press |
-| HLR3 | A password shall be provided for our system |
-| HLR4 | System shall detect temperaure |
+| HLR1 | System shall be provided with wireless Lock and Unlock system |
+| HLR2 | System shall be provided with wireless Alarm activation and Deactivation |
+| HLR3 | System shall be provided with Approach Light |
+| HLR4 | System shall be made as Hack proof |
 
 ## 2.2 Low Level Requirements
 
 | ID | Low Level Requirements for HL1|       |ID | Low Level Requirements for HL2|
 | -------- | -------------- | ---- |-------- | -------------- |
-| LLR1.1 |  According to the values of __Keypad__  Fan,Light shall be controlled | | LLR2.1 | Entered value on keypad shall be displayed on __LCD__ Screen |
-| LLR1.2 | According to the values of __Kaypad__ opening,closing of doors shall be controlled || LLR2.2 | Number of Lights and Fans On __LCD__ Screen |
+| LLR1.1 |  According to the press of __Button__ all LED's shall be on | | LLR2.1 | According to the press of __Button__  LED's shall be off  |
+| LLR1.2 | According to the press of __Button__ LED's shall be on in Clockwise Manner | | LLR2.2 | LED's shall glow in a manner of __Green🔜Orange🔜Red🔜Blue__ |
      
 | ID | Low Level Requirements for HL3|  |ID | Low Level Requirements for HL4|
 | -------- | -------------- | ---- | -------- | -------------- |
-| LLR3.1 |  Device shall open when the __Password__ is matched | | LLR4.1 | __Temperature Sensor__ shall detect the room temperature |
-| LLR3.2 | Device shall ask to Re-Enter the __Password__ again if entered one is wrong || LLR4.2 | The temperature detected by  __Temperature Sensor__ shall be printed on LCD Screen |
+| LLR3.1 |  According to the press of __Button__ LED's shall be on in AntiClockwise Manner | | LLR4.1 | LED's shall glow in a manner of __Green🔜Blue🔜Red🔜Orange__ |
+| LLR3.2 | System shall be __Encrypted__ with masked data || LLR4.2 | System shall provide __Random Data__ each time to ensure more security |
+
 ---
 
-# 3 Block Diagram and Blocks explination
-## 3.1 BLOCK DIAGRAM
-![csmicrowaveoven drawio (1)](https://user-images.githubusercontent.com/94365143/155744126-970fa92c-6787-4c1e-af1d-46a8aad3d82f.png)
-## 3.2 SENSORS
-* ### Temperature Sensor (Thermistor)
-    * This Thermistor is a resistor whose resistance is dependent on temperature here this change in resistence produces change in voltage, this voltage is taken as input to micro controller.
-* ### Keypad:
-    *  Provides an interface to press a number which helps in controlling Fan,Light and Doors of our house.
-* ### Front Stop Switch(MicroSwitch):
-    * Stops the door automatically by pressing switch itself when door is completely opened.
-* ### Back Stop Switch(MicroSwitch):
-    * Stops the door automatically by pressing switch itself when door is completely opened. 
-
-## 3.3 ACTUATORS
-* ### LCD Display:
-    * Displays each and every value we enter in our keypad along with Temperature.
-* ### Light:
-    * Lightning inside the room is controlled by light.
-* ### Fan:
-    * Temperature inside room is controlled by fan.
-* ### Motor:
-    * Helps in opening and closing our doors.
-    
-## 3.4 MICRO CONTROLLER AND MEMORY
-* ### EEPROM
-    * Here this is actually inside the microcontroller
-* ### Clock
-    * Here we are using internal clock of our micro controller.
-* ### MicroController:
-    * This is the main component which controls all the above mentioned part or thins of our embedded system.This interfaces keypad and LCD and controlls the fan,light and doors depending on the value we pressed on keypad.
+# 1 Block Diagram and Blocks explination
+---
+# 1 Architecture
+* ## 1.1 Behavioural Diagram
+    * ### 1.1.1 High Level Flow chart Behavioural Diagram
+   ![RkeHighlvl](https://user-images.githubusercontent.com/94365143/157736144-b835f717-d1b4-4d8d-9796-259d5bbf4a8e.png)
    
- ## 3.5 SUBSYSTEM & OTHERS
-* ### Motor Driver Unit:
-    * Helps in driving the motor for our door and fan by providing required power for them(we use motor driver L293). 
- ---
-# 4 Architecture
-* ## 4.1 Behavioural Diagram
-    * ### 4.1.1 High Level Flow chart Behavioural Diagram
-    ![Homeautomation drawio](https://user-images.githubusercontent.com/94365143/155739910-02eb973e-1fea-4e46-8f63-48e638b3feba.png)
-    * ### 4.1.2 Low Level Flow chart Behavioural Diagram
-    ![Homeautomationlow drawio (2)](https://user-images.githubusercontent.com/94365143/155739932-ad8d6c8a-44a6-4d26-9d3e-b6906c108c80.png)
-* ## 4.2 Structural Diagram
-    * ### 4.2.1 High Level UML Use Case Structural Diagram
-    ![Homeautomationumlhigh drawio](https://user-images.githubusercontent.com/94365143/155739956-2e768765-460a-49b6-a80b-ecabe5c1a1cd.png)
-    * ### 4.2.2 Low Level UML Use Case Structural Diagram
-    ![Homeautomationumllow drawio (2)](https://user-images.githubusercontent.com/94365143/155742932-9ed19b51-e759-4085-9508-23bef2a91e94.png)
+    * ### 1.1.2 Low Level Flow chart Behavioural Diagram
+    ![RKELowlvl](https://user-images.githubusercontent.com/94365143/157736152-1014a84c-67b7-4a1f-af81-9e2b11f614ec.png)
+
+* ## 1.2 Structural Diagram
+    * ### 1.2.1 High Level UML Use Case Structural Diagram
+   ![UseCaseHighRKE](https://user-images.githubusercontent.com/94365143/157736174-c018f0e5-8426-4310-b11d-f594529b89ea.png)
+
+    * ### 1.2.2 Low Level UML Use Case Structural Diagram
+    ![RKEUmlUseLowlvl](https://user-images.githubusercontent.com/94365143/157736195-92cc97a1-3cfe-4302-98f1-7b03e8f3a8e5.png)
 
  ---
+ 
+ # Best Methods Followed
+* Exact Mapping of code to avoid confusions
+* Mentioning of both High level and Low level Behavioral and structural diagrams for better understanding
+* Followed the exact symbols to make the understanding easier
+* Detailed explanation in Low level Behavioural and Structural Diagrams
 
-# 5 Test plan and output
+---
+# 1.1 HIGH LEVEL TEST PLAN
 
-# 5.1 HIGH LEVEL TEST PLAN
-
-| Test ID | Description | Input | Expected output | Actual Output | Passed Or Not |
-| --- | --- | --- | --- | --- | --- |
-| 01 | Thermistor | Room Temperature(25°C) | Temperature(25°C) | Temperature(25°C) | To be Done |
-| 01 | Thermistor | Room Temperature(35°C) | Temperature(35°C) | Temperature(35°C) | To be Done |
-| 02 | Keypad | 1 | 1(Door Opens) | 1(Door Opens) | To be Done |
-| 03 | Keypad | 2 | 2(Door Closes) | 2(Door Closes) | To be Done |
-| 04 | Keypad | 3 | 3(Ligh On) | 3(Ligh On) | To be Done |
-| 05 | Keypad | 3 | 3(Light Off) | 3(Light Off) | To be Done |
-| 06 | Keypad | 4 | 4(Fan On) | 4(Fan On) | To be Done |
-| 07 | Keypad | 4 | 4(Fan Off) | 4(Fan Off) | To be Done |
-| 08 | Keypad | * | * (No of Fan On and Light On) | * (No of Fan On and Light On) | To be Done |
-| 09 | Keypad | # | # (Restarts our system) | * (Restarted our system) | To be Done |
-
+| Test ID | Description | Input | Expected output | Actual Output | 
+| --- | --- | --- | --- | --- | 
+| 01 | Car Lock | 1 User Button Press | Car locked |  Car locked  | 
+| 02 | Car Unlock | 2 User Button Presses |  Car unlocked  |  Car unlocked  | 
+| 03 | Alarm activation/deactivation | 3 User Button Presses | Alarm activated/deactivated | Alarm activated/deactivated | 
+| 04 | Approach Light | 4 User Button Presses | Approch Light On | Approach Light On | 
+| 05 | Data Encryption | No of User Clicks | Random Data | Random Data | 
 ### Here below are the some of the *unity test/ unity framework* test plans there are so many but I have only mentiones some of the test cases here.
 
-# 5.2 LOW LEVEL TEST PLAN
+# 1.2 LOW LEVEL TEST PLAN
 
 | Test ID | Description | Input | Expected output | Actual Output | Passed Or Not |
 | --- | --- | --- | --- | --- | --- |
 
-| Test ID (for LCD)| Description | Input | Expected output | Actual Output | passed/not |
+| Test ID (for LED)| Description | Input | Expected output | Actual Output | passed/not |
 | --- | --- | --- | --- | --- | --- |
-| 01 | Check for LCD_Char() | A  | A |  A | To be done |
-| 02 | Check for LCD_String() | Manjunadh | Manjunadh | Manjunadh | To be done |
-| 03 | Check for LCD_String() | Home | Home | Home | To be done |
+| 01 | Check for ALLLED_ON() | 1 User Button Press | All LEDs ON |All LEDs ON | ✅ |
+| 02 | Check for ALLLED_OFF() | 2 User Button Presses | All LEDs OFF | All LEDs OFF | ✅ |
+| 03 | Check for LEDCW_ON() | 3 User Button Presses | LED ON Clockwise Rotation | LED ON Clockwise Rotation | ✅ | 
+| 04 | Check for LEDACW_ON() | 4 User Button Presses |LED ON Anticlockwise Rotation | LED ON Anticlockwise Rotation | ✅ |
 
-
-| Test ID (for ADC)| Description | Input | Expected output | Actual Output | passed/not |
+| Test ID (for Button Count)| Description | Input | Expected output | Actual Output | passed/not |
 | --- | --- | --- | --- | --- | --- |
-| 01 | Check for ADC_Read() | To be done | To be done |  To be done | To be done |
-| 02 | Check for ADC_Read() | To be done | To be done |  To be done | To be done |
+| 01 | Check for Button_Count() | 1 User Button Press | 1 | 1 | ✅ |
+| 02 | Check for Button_Count() | 2 User Button Presses | 2 | 2 | ✅ |
+| 03 | Check for Button_Count() | 3 User Button Presses | 3 | 3 | ✅ |
+| 04 | Check for Button_Count() | 4 User Button Presses | 4 | 4 | ✅ |
 
-| Test ID (for mapping, map)| Description | Input | Expected output | Actual Output | passed/not |
-| --- | --- | --- | --- | --- | --- |
-| 01 | Check for map() | To be done | To be done |  To be done | To be done |
-| 02 | Check for map() | To be done | To be done |  To be done | To be done |
-| 03 | Check for map() | To be done | To be done |  To be done | To be done |
 ---
-# 6 Application
-* This system can be used in Automation of Houses,Industries,Stadiums etc...
-* This system can be used in Light Control of Houses,Industries,Stadiums etc...
-* This system can be used in Fan Control of Houses,Industries,Stadiums etc...
-* This system can be used in Door Control of Houses,Industries,Stadiums etc...
-* This system can be used in Automatic Temperature Detector of Houses,Industries,Stadiums etc...
-* This system can be used to know number of appliances "On" status of Houses,Industries,Stadiums etc... 
----
-
- -->
