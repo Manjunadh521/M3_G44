@@ -8,7 +8,7 @@
 | 04 | Approach Light | 4 User Button Presses | Approch Light On | Approach Light On | 
 | 05 | Data Encryption | No of User Clicks | Random Data | Random Data | 
 ### Here below are the some of the *unity test/ unity framework* test plans there are so many but I have only mentiones some of the test cases here.
-
+---
 # 1.2 LOW LEVEL TEST PLAN
 
 | Test ID | Description | Input | Expected output | Actual Output | Passed Or Not |
