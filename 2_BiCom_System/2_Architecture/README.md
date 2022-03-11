@@ -1,6 +1,5 @@
-# 1 Block Diagram and Blocks explination
----
 # 1 Architecture
+
 * ## 1.1 Behavioural Diagram
     * ### 1.1.1 High Level Flow chart Behavioural Diagram
    ![BiComHighlvl](https://user-images.githubusercontent.com/94365143/157745691-d8c989cc-59da-4ad4-91b0-3af29f80fdc4.png)

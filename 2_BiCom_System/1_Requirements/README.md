@@ -47,3 +47,5 @@
 | -------- | -------------- | ---- | -------- | -------------- |
 | LLR3.1 | According to the press of __Button__ LED's shall be on in Clockwise Manner | | LLR4.1 |  LED's shall glow in a manner of __Green🔜Orange🔜Red🔜Blue__ |
 | LLR3.2 |  According to the press of __Button__ LED's shall be on in AntiClockwise Manner || LLR4.2 | LED's shall glow in a manner of __Green🔜Blue🔜Red🔜Orange__ |
+
+---
