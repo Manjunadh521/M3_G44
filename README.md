@@ -12,7 +12,7 @@
 
 ---
 | Codacy Badge | Codiga Badge |
-|[![Codacy Badge](https://app.codacy.com/project/badge/Grade/460e5b0406a049ada75b577ae365c42f)](https://www.codacy.com/gh/Manjunadh521/M3_G44/dashboard?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=Manjunadh521/M3_G44&amp;utm_campaign=Badge_Grade)|
+[![Codacy Badge](https://app.codacy.com/project/badge/Grade/460e5b0406a049ada75b577ae365c42f)](https://www.codacy.com/gh/Manjunadh521/M3_G44/dashboard?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=Manjunadh521/M3_G44&amp;utm_campaign=Badge_Grade)|![Codiga](https://api.codiga.io/project/31873/score/svg) ![Codiga](https://api.codiga.io/project/31873/status/svg)
 
 
 ---
