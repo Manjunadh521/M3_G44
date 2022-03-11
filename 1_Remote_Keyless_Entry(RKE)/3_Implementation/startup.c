@@ -132,7 +132,7 @@ void FPU_Handler(void) __attribute__ ((weak, alias("Default_Handler")));
     (uint32_t) PVD_Handler,
     (uint32_t) TAMP_STAMP_Handler,
     (uint32_t) RTC_WKUP_Handler,
-    0,//ask sir 
+    0, 
     (uint32_t) FLASH_Handler,
     (uint32_t) RCC_Handler,
     (uint32_t) EXTI0_Handler,
