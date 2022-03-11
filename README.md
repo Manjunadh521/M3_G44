@@ -15,6 +15,7 @@
 
 Simulation 1 Remote_Keyless_Entry Video link ↓
 
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/3bba3e8aad464f438f324a59da03b476)](https://app.codacy.com/gh/Manjunadh521/M3_G44?utm_source=github.com&utm_medium=referral&utm_content=Manjunadh521/M3_G44&utm_campaign=Badge_Grade_Settings)
   [![IMAGE ALT TEXT](https://github.com/Manjunadh521/M2-EmbSys/blob/main/Project/6_ImagesAndVideos/youtube.png)](https://youtu.be/aD524jWmueY "Video Title")
 
 ---
