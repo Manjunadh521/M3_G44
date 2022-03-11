@@ -13,7 +13,7 @@ void my_delay(uint32_t time) // Provides Require Delay
 {
 	for (uint32_t i = 0; i < time * 100000; i++)
 	{
-		time = time;
+		
 	}
 }
 void led_init_all(void) // LED Initialisation
