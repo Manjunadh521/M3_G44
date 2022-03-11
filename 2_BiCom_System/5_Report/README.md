@@ -1,9 +1,9 @@
 # Table of content
 1. About the BiCom System
-    2.1 Description
-    2.2 Identifying features
-    2.3 State of art
-    2.4 5W’s & 1H and S.W.O.T analysis
+    1. Description
+    1. Identifying features
+    1. State of art
+    1. 5W’s & 1H and S.W.O.T analysis
 1. Requirements
     1. High level requirements
     1. Low level requirements
