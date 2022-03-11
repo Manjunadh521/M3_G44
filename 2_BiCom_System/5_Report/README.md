@@ -1,3 +1,22 @@
+# Table of content
+1. About the BiCom System
+    1. Description
+    1. Identifying features
+    1. State of art
+    1. 5W’s & 1H and S.W.O.T analysis
+1. Requirements
+    1. High level requirements
+    1. Low level requirements
+1. Architecture
+    1. Behavioural Diagram
+        1. High Level Flow chart Behavioural Diagram
+        1. Low Level Flow chart Behavioural Diagram
+    1. Structural Diagram
+        1. High Level UML Use Case Structural Diagram
+        1. Low Level UML Use Case Structural Diagram
+1. Test plan and Output
+    1. High level test plan
+    1. Low level test plan
 # 1 About the BiCom System
 ## 1.1 Description
 * This project is an BiCom System. This system Displays Window Status, Alarm Status, Battery Information, Door Status . There is a led signaling which helps us to identify the features. For example if we press a button 1 time all the LED will be on which means the Window status of car is displayng, similarly for 2, 3 and 4 clicks. There are several features like communication between car to key and key to car .   
