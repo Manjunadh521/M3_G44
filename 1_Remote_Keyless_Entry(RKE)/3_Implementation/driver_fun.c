@@ -8,15 +8,13 @@ const int en1 = 1; // Keeps en1 constant throughout the program
 const int en2 = 2; // Keeps en2 constant throughout the program
 const int en3 = 3; // Keeps en3 constant throughout the program
 const int en4 = 4; // Keeps en4 constant throughout the program
-int x;
+
 
 void my_delay(uint32_t time) // Provides Require Delay
 {
 	for (uint32_t i = 0; i < time * 100000; i++)
 	{
 		
-		x++;
-		x=x-x/2;
 		
 	}
 }
