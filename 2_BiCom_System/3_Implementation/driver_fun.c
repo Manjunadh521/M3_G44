@@ -4,13 +4,15 @@
 //Start of A.Manoj Sai work done with the help of Y.Manjunadh
 #include "driver_fun.h"
 
-int x=0;
+int x;
 void my_delay(uint32_t time) // Provides Require Delay
 {
 	for (uint32_t i = 0; i < time * 100000; i++)
 	{
 		
 		x++;
+		x=x-x/2;
+		
 	}
 }
 void led_init_all(void) // LED Initialisation
